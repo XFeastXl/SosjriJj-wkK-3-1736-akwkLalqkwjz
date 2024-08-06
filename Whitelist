@@ -8,3 +8,5 @@ local whitelist = {
 local function isWhitelisted(player)
     return whitelist[player.UserId]
 end
+
+return whitelist
